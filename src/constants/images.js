@@ -1,6 +1,6 @@
-import awallogo from '../assests/awallogo.svg'
+// import awallogo from '../assests/awallogo.svg'
 
 
-export default {
-    awallogo
-}
+// export default {
+//     awallogo
+// }
