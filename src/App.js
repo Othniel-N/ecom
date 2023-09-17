@@ -14,11 +14,15 @@ import PaymentScreen from "./screens/PaymentScreen";
 import PlaceOrderScreen from "./screens/PlaceOrderScreen";
 import OrderScreen from "./screens/OrderScreen";
 import NotFound from "./screens/NotFound";
+import HomePage from "./components/homePageFront/HomePage";
+// import HomePage from "./components/homePageFront/HomePage";
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        {/* <Route path="/Homepage" component={HomePage}/> */}
+        <Route path="/home" component={HomePage}/>
         <Route path="/" component={HomeScreen} exact />
         <Route path="/products/:id" component={SingleProduct} />
         <Route path="/login" component={Login} />
